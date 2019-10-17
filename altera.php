@@ -7,7 +7,6 @@
     $valor = $_POST['valor'];
 
 
-
     $query = "update tb_pizza set ds_sabor = '$sabor', vl_pizza = $valor where cd_pizza = $codigo";
 
     mysqli_query($conexao,$query);
